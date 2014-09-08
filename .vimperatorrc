@@ -1,0 +1,21 @@
+set gui=tabs
+
+noremap j 5j
+noremap k 5k
+
+noremap H gT
+noremap L gt
+noremap J <C-o>
+noremap K <C-i>
+
+noremap c 1gt
+
+noremap <C-a> <Ins><C-a><Ins>
+inoremap <C-a> <Ins><C-a><Ins>
+
+set hintchars=hjklasdfguiopqwertnmzxcvb
+set gui=nomenu,nobookmarks
+
+source ~/.vimperator/plugin/_libly.js
+source ~/.vimperator/plugin/feedSomeKeys_3.js
+fmaps -u='localhost' <CR>
