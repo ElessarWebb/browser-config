@@ -1,4 +1,4 @@
-set gui=tabs
+set gui=none,tabs
 
 noremap j 5j
 noremap k 5k
@@ -8,7 +8,8 @@ noremap L gt
 noremap J <C-o>
 noremap K <C-i>
 
-noremap c 1gt
+noremap gm 1gt
+noremap gs 2gt
 
 noremap <C-a> <Ins><C-a><Ins>
 inoremap <C-a> <Ins><C-a><Ins>
