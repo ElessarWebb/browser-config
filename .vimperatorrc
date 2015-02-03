@@ -16,7 +16,3 @@ inoremap <C-a> <Ins><C-a><Ins>
 
 set hintchars=hjklasdfguiopqwertnmzxcvb
 set gui=nomenu,nobookmarks
-
-source ~/.vimperator/plugin/_libly.js
-source ~/.vimperator/plugin/feedSomeKeys_3.js
-fmaps -u='localhost' <CR>
